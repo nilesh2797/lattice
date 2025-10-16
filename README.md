@@ -80,7 +80,7 @@ bash run.sh
 | `--subset` | Dataset subset (biology, economics, etc.) | Required |
 | `--tree_version` | Tree construction method (bottom-up/top-down) | Required |
 | `--num_iters` | Number of retrieval iterations | 20 |
-| `--max_beam_size` | Beam size during traversal | 5 |
+| `--max_beam_size` | Beam size during traversal | 2 |
 | `--relevance_chain_factor` | Weight for current score in path relevance | 0.5 |
 | `--reasoning_in_traversal_prompt` | Enable reasoning (thinking budget) | -1 (enabled) |
 | `--rerank` | Additional reranking on final results | False |
