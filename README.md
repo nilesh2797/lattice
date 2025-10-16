@@ -9,7 +9,7 @@ Nilesh Gupta, Wei-Cheng Chang, Ngot Bui, Cho-Jui Hsieh, Inderjit S. Dhillon
 *UT Austin · UCLA · Google*
 
 
-> TLDR; LATTICE turns retrieval into an LLM-driven navigation problem over a semantic scaffold. That scaffold gives the method both the computational tractability needed for large corpora and the contextual reasoning required for complex queries.
+> TLDR; LATTICE turns retrieval into an LLM-driven navigation problem over a semantic scaffold for computational tractability needed for large corpora.
 
 
 ## 🚀 Overview
