@@ -20,24 +20,7 @@ LATTICE proposes an *LLM-native retrieval* paradigm that combines the efficiency
   <img src="assets/lattice-overview.png" width="800">
 </p>
 
-### Key ideas
-- **Semantic tree index:**
-  - The corpus is structured offline into a hierarchy of internal nodes (LLM-generated summaries) and leaf nodes (documents).
-  - This tree constrains the search space and makes traversal efficient.
-- **LLM-guided traversal:**
-  - At query time, a search LLM reasons and scores small candidate slates of sibling nodes along with some calibration nodes.
-  - These local judgments drive a best-first traversal (beam expansion) instead of flat reranking.
-- **Global calibration:**
-  - LLM scores are context-dependent and noisy, LATTICE tries to estimate *latent* relevance scores and aggregates it into a *path relevance* score (smoothed via a momentum α) so nodes across branches are comparable.
-- **Two tree construction strategies:**
-  - (1) **Bottom-up** — agglomerative clustering and LLM summarization (good when passages belong to larger source documents);
-  - (2) **Top-down** — LLM-driven divisive clustering using multi-level summaries (better when documents are conceptually distinct).
-
-### Why it matters
-- **Efficiency** → Traversing a semantic tree requires far fewer LLM evaluations than reranking long flat lists; search cost grows roughly logarithmically with corpus size.
-- **Reasoning-aware retrieval** → The search LLM's in-context reasoning allows retrieval to capture deeper, multi-step relevance signals that simple embeddings or keyword matchers miss.
-- **Strong zero-shot results** → In experiments on BRIGHT, LATTICE substantially improves retrieval recall and ranking quality in zero-shot settings.
-
+Read more in the [blog](https://nilesh2797.github.io/publications/lattice) / [paper](https://arxiv.org/abs/2510.13217).
 
 ## 🚀 Usage
 
