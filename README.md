@@ -12,7 +12,7 @@
 > LATTICE turns retrieval into an LLM-driven navigation problem over a semantic scaffold for computational tractability needed for large corpora.
 
 
-## 🚀 Overview
+## 📄 Overview
 
 LATTICE proposes an *LLM-native retrieval* paradigm that combines the efficiency of hierarchical search with the reasoning power of modern large language models. Instead of relying on a static retriever + reranker pipeline or attempting to place a large corpus directly in an LLM context, LATTICE organizes the corpus into a semantic tree and uses an LLM as an *active search agent* that navigates that tree. This design yields logarithmic search complexity while preserving the LLM’s ability to perform nuanced, multi-step relevance judgments for complex, reasoning-heavy queries.
 
@@ -39,7 +39,7 @@ LATTICE proposes an *LLM-native retrieval* paradigm that combines the efficiency
 - **Strong zero-shot results** → In experiments on BRIGHT, LATTICE substantially improves retrieval recall and ranking quality in zero-shot settings.
 
 
-## Usage
+## 🚀 Usage
 
 ### Setup
 
@@ -68,14 +68,12 @@ LATTICE proposes an *LLM-native retrieval* paradigm that combines the efficiency
 ### Quick Start
 Run a single experiment:
 ```bash
-cd src
-python run.py --subset biology --tree_version bottom-up --num_iters 20
+cd src; python run.py --subset biology --tree_version bottom-up --num_iters 20
 ```
 
-### Batch Experiments
+Batch Experiments
 ```bash
-cd src
-bash run.sh
+cd src; bash run.sh
 ```
 
 ### Configuration
@@ -115,7 +113,7 @@ lattice/release/
 └── logs/                   # Execution logs
 ```
 
-## Results
+## 📈 Results
 ### Ranking results on BRIGHT
 <p align="center">
   <img src="assets/lattice-bright-ndcg.png" width="600">
