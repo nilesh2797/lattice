@@ -4,7 +4,7 @@
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 <!-- [![GitHub stars](https://img.shields.io/github/stars/nilesh2797/lattice.svg?style=social&label=Star)](https://github.com/nilesh2797/lattice) -->
 
-**Official implementation of [LLM-Guided Hierarchical Retrieval](https://arxiv.org/abs/2508.21038)**  
+**Official implementation of [LLM-Guided Hierarchical Retrieval](https://arxiv.org/abs/2510.13217)**  
 Nilesh Gupta, Wei-Cheng Chang, Ngot Bui, Cho-Jui Hsieh, Inderjit S. Dhillon  
 *UT Austin · UCLA · Google*
 
