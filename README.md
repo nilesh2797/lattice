@@ -1,7 +1,8 @@
 # LATTICE: LLM-guided Hierarchical Retrieval
 
 [![arXiv](https://img.shields.io/badge/arXiv-2510.13217-b31b1b.svg)](https://arxiv.org/abs/2510.13217)
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+[![Code](https://img.shields.io/badge/Code-GitHub-black.svg)](https://github.com/nilesh2797/lattice)
+[![Colab](https://img.shields.io/badge/Colab-Notebook-blue.svg)](https://colab.research.google.com/drive/1AwDrHzipFVe-9kNAUJjCC4CNL4soRsqb?usp=sharing)
 [![Blog](https://img.shields.io/badge/Blog-Read%20More-yellow.svg)](https://nilesh2797.github.io/publications/lattice)
 
 <!-- [![GitHub stars](https://img.shields.io/github/stars/nilesh2797/lattice.svg?style=social&label=Star)](https://github.com/nilesh2797/lattice) -->
