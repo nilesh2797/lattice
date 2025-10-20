@@ -18,7 +18,7 @@ LATTICE proposes an *LLM-native retrieval* paradigm that combines the efficiency
   <img src="assets/lattice-overview.png" width="800">
 </p>
 
-Read more in the [blog](https://nilesh2797.github.io/publications/lattice) / [paper](https://arxiv.org/abs/2510.13217).
+Read more in the [blog](https://nilesh2797.github.io/publications/lattice) / [paper](https://arxiv.org/abs/2510.13217) or try it out in the [colab notebook](https://colab.research.google.com/drive/1AwDrHzipFVe-9kNAUJjCC4CNL4soRsqb?usp=sharing)
 
 ## 🚀 Usage
 
